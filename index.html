@@ -2,24 +2,18 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Website Saya</title>
-  <!-- Library React -->
+  <title>StoryMap</title>
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <!-- Library untuk membaca syntax JSX -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
   <div id="root"></div>
 
-  <!-- Taruh isi kode JSX kamu di dalam script ini -->
   <script type="text/babel">
+    // Tempelkan seluruh isi kode .jsx kamu di sini
     function App() {
-      return (
-        <div>
-          <h1>Halo! Kode JSX berhasil jalan.</h1>
-        </div>
-      );
+      return <h1>Halo dari StoryMap!</h1>;
     }
 
     const root = ReactDOM.createRoot(document.getElementById('root'));
